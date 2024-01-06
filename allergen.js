@@ -9,6 +9,17 @@ function Allergen(name) {
   };
 }
 
+Allergen.prototype.getName = function () {
+  return this.name;
+};
+
+Allergen.prototype.setName = function (name) {
+  this.name = name;
+};
+
+Allergen.prototype.getDescription = function () {
+  return this.description;
+};
 Allergen.prototype.setDescription = function (description) {
   this.description = description;
 };

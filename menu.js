@@ -9,6 +9,17 @@ function Menu(name) {
   };
 }
 
+Menu.prototype.getName = function () {
+  return this.name;
+};
+
+Menu.prototype.setName = function (name) {
+  this.name = name;
+};
+
+Menu.prototype.getDescription = function () {
+  return this.description;
+};
 Menu.prototype.setDescription = function (description) {
   this.description = description;
 };
